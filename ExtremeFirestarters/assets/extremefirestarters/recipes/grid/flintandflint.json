@@ -1,0 +1,49 @@
+[
+    {
+        "__comment": "Create",
+        "ingredientPattern": "GF,F_",
+        "ingredients": {
+            "G": {
+                "type": "item",
+                "code": "game:drygrass"
+            },
+            "F": {
+                "type": "item",
+                "code": "game:flint"
+            }
+        },
+        "width": 2,
+        "height": 2,
+        "output": {
+            "type": "item",
+            "code": "extremefirestarters:flintandflint",
+            "quantity": 1
+        }
+    },
+    {
+        "__comment": "Repair",
+        "ingredientPattern": "GF,H_",
+        "recipeGroup": 2,
+        "ingredients": {
+            "G": {
+                "type": "item",
+                "code": "game:drygrass"
+            },
+            "H": {
+                "type": "item",
+                "code": "extremefirestarters:flintandflint"
+            },
+            "F": {
+                "type": "item",
+                "code": "game:flint"
+            }
+        },
+        "width": 2,
+        "height": 2,
+        "averageDurability": false,
+        "output": {
+            "type": "item",
+            "code": "extremefirestarters:flintandflint"
+        }
+    }
+]

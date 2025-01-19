@@ -1,0 +1,10 @@
+{
+	ingredient: { type: "item", code: "game:ingot-*", name: "metal", allowedVariants: ["steel"] },
+	pattern: [[
+		"_____##_##_____",
+		"_____#___#_____",
+		"_____#####_____",
+	]],
+	name: "Steel for Flint and Steel",
+	output: { type: "item", code: "firestriker" }
+}

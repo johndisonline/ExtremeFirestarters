@@ -1,0 +1,103 @@
+[
+    {
+        "__comment": "Create - Utility recipe since the Crude Bow is default locked behind class",
+        "recipeGroup": 1,
+        "ingredientPattern": "WSR,TGR,WSR",
+        "ingredients": {
+            "W": {
+                "type": "item",
+                "code": "game:firewood"
+            },
+            "S": {
+                "type": "item",
+                "code": "game:stick"
+            },
+            "T": {
+                "type": "item",
+                "code": "game:stick",
+                "quantity": 2
+            },
+            "G": {
+                "type": "item",
+                "code": "game:drygrass"
+            },
+            "R": {
+                "type": "item",
+                "code": "game:rope"
+            }
+        },
+        "width": 3,
+        "height": 3,
+        "output": {
+            "type": "item",
+            "code": "extremefirestarters:bowdrill-crude",
+            "quantity": 1
+        }
+    },
+    {
+        "__comment": "Create",
+        "recipeGroup": 2,
+        "ingredientPattern": "_W_,BGS,_W_",
+        "ingredients": {
+            "W": {
+                "type": "item",
+                "code": "game:firewood"
+            },
+            "S": {
+                "type": "item",
+                "code": "game:stick"
+            },
+            "B": {
+                "type": "item",
+                "code": "game:bow-crude"
+            },
+            "G": {
+                "type": "item",
+                "code": "game:drygrass"
+            }
+        },
+        "width": 3,
+        "height": 3,
+        "output": {
+            "type": "item",
+            "code": "extremefirestarters:bowdrill-crude",
+            "quantity": 1
+        }
+    },
+    {
+        "__comment": "Repair",
+        "recipeGroup": 3,
+        "ingredientPattern": "_WR,BGS,_W_",
+        "ingredients": {
+            "W": {
+                "type": "item",
+                "code": "game:firewood"
+            },
+            "S": {
+                "type": "item",
+                "code": "game:stick"
+            },
+            "B": {
+                "type": "item",
+                "code": "extremefirestarters:bowdrill-crude"
+            },
+            "G": {
+                "type": "item",
+                "code": "game:drygrass"
+            },
+            "R": {
+                "type": "item",
+                "code": "game:rope"
+            }
+        },
+        "width": 3,
+        "height": 3,
+        "averageDurability": false,
+        "output": {
+            "type": "item",
+            "code": "extremefirestarters:bowdrill-crude",
+            "quantity": 1
+        }
+    }
+
+]

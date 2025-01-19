@@ -1,0 +1,77 @@
+{
+    code: "firestriker",
+    attributes: {
+        displaycaseable: true,
+        shelvable: true
+    },
+    shape: { base: "item/resource/striker" },
+    texture: { base: "game:item/resource/plate/steel" },
+    creativeinventory: {
+        "general": [ "*" ],
+        "items": [ "*" ]
+    },
+    maxstacksize: 5,
+    materialDensity: 2000,
+    guiTransform: {
+        translation: {
+            x: 0,
+            y: 0,
+            z: 0
+        },
+        rotation: {
+            x: -4,
+            y: 117,
+            z: 142
+        },
+        origin: {
+            x: 0.46,
+            y: 0.02,
+            z: 0.48
+        },
+        scale: 3.19
+    },
+    fpHandTransform: {
+        rotation: {
+            x: 101,
+            y: 92,
+            z: -30
+        },
+        origin: {
+            x: 0.6,
+            y: 0.2,
+            z: 0.4
+        },
+        scale: 1.6
+    },
+    tpHandTransform: {
+        translation: {
+            x: -1.2,
+            y: -0.7,
+            z: -1.05
+        },
+        rotation: {
+            x: -9,
+            y: 3,
+            z: -29
+        },
+        scale: 0.44
+    },
+    groundTransform: {
+        "translation": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "rotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "origin": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "scale": 3.6
+    }
+}

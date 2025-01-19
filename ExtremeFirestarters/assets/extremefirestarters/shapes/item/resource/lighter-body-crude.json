@@ -1,0 +1,73 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+	},
+	"textures": {
+		"gray": "game:item/meta/gray",
+		"tin": "game:item/resource/plate/tin"
+	},
+	"elements": [
+		{
+			"name": "Origin",
+			"from": [ 8.0, 0.0, 8.0 ],
+			"to": [ 8.0, 0.0, 8.0 ],
+			"rotationOrigin": [ 8.0, 0.0, 8.0 ],
+			"faces": {
+				"north": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+				"east": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+				"south": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+				"west": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+				"up": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+				"down": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ] }
+			},
+			"children": [
+				{
+					"name": "base",
+					"from": [ -1.5, 0.0, -1.0 ],
+					"to": [ 1.5, 4.0, 1.0 ],
+					"faces": {
+						"north": { "texture": "#tin", "uv": [ 0.0, 0.0, 3.0, 4.0 ] },
+						"east": { "texture": "#tin", "uv": [ 0.0, 0.0, 2.0, 4.0 ] },
+						"south": { "texture": "#tin", "uv": [ 0.0, 0.0, 3.0, 4.0 ] },
+						"west": { "texture": "#tin", "uv": [ 0.0, 0.0, 2.0, 4.0 ] },
+						"up": { "texture": "#gray", "uv": [ 0.0, 0.0, 3.0, 2.0 ] },
+						"down": { "texture": "#tin", "uv": [ 0.0, 0.0, 3.0, 2.0 ] }
+					}
+				},
+				{
+					"name": "lid",
+					"from": [ -1.5, 4.0, -1.0 ],
+					"to": [ 1.5, 6.0, 1.0 ],
+					"rotationOrigin": [ 1.5, 4.0, 0.0 ],
+					"rotationZ": -157.5,
+					"faces": {
+						"north": { "texture": "#tin", "uv": [ 0.0, 0.0, 3.0, 2.0 ] },
+						"east": { "texture": "#tin", "uv": [ 0.0, 0.0, 2.0, 2.0 ] },
+						"south": { "texture": "#tin", "uv": [ 0.0, 0.0, 3.0, 2.0 ] },
+						"west": { "texture": "#tin", "uv": [ 0.0, 0.0, 2.0, 2.0 ] },
+						"up": { "texture": "#tin", "uv": [ 0.0, 0.0, 3.0, 2.0 ] },
+						"down": { "texture": "#gray", "uv": [ 0.0, 0.0, 3.0, 2.0 ] }
+					}
+				},
+				{
+					"name": "hinge",
+					"from": [ 1.4, 3.8, -1.0 ],
+					"to": [ 1.8, 4.2, 1.0 ],
+					"rotationOrigin": [ 1.9, 3.8, 0.0 ],
+					"faces": {
+						"north": { "texture": "#tin", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+						"east": { "texture": "#tin", "uv": [ 0.0, 0.0, 2.0, 0.5 ] },
+						"south": { "texture": "#tin", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+						"west": { "texture": "#tin", "uv": [ 0.0, 0.0, 2.0, 0.5 ] },
+						"up": { "texture": "#tin", "uv": [ 0.0, 0.0, 0.5, 2.0 ] },
+						"down": { "texture": "#tin", "uv": [ 0.0, 0.0, 0.5, 2.0 ] }
+					}
+				}
+			]
+		}
+	]}

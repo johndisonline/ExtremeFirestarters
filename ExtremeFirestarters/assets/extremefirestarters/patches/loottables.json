@@ -1,0 +1,74 @@
+[
+    {
+        "__comment": "Add bow drill and flint and steel to survival trader.",
+        "file": "game:config/tradelists/trader-survivalgoods",
+        "op": "addMerge",
+        "path": "/selling/list/-",
+        "value": {
+            "code": "extremefirestarters:bowdrill",
+            "type": "item",
+            "stacksize": 1,
+            "stock": {
+                "avg": 2,
+                "var": 0.5
+            },
+            "price": {
+                "avg": 6,
+                "var": 2
+            }
+        }
+    },
+    {
+        "file": "game:config/tradelists/trader-survivalgoods",
+        "op": "addMerge",
+        "path": "/selling/list/-",
+        "value": {
+            "code": "extremefirestarters:flintandsteel",
+            "type": "item",
+            "stacksize": 1,
+            "stock": {
+                "avg": 2,
+                "var": 0.5
+            },
+            "price": {
+                "avg": 32,
+                "var": 8
+            }
+        }
+    },
+
+
+    {
+        "file": "game:blocktypes/clay/lootvessel",
+        "op": "addMerge",
+        "path": "/attributes/lootListByType/*-tool/-",
+        "value": {
+            "type": "item",
+            "chance": 1,
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "codes": [ "extremefirestarters:bowdrill-crude" ]
+        }
+    },
+
+    {
+        "file": "game:blocktypes/clay/lootvessel",
+        "op": "addMerge",
+        "path": "/attributes/lootListByType/*-tool/-",
+        "value": {
+            "type": "item",
+            "chance": 0.1,
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "codes": [ "extremefirestarters:bowdrill" ]
+        }
+    },
+
+
+
+
+
+
+   
+
+]

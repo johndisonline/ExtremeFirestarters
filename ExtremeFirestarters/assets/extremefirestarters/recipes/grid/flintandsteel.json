@@ -1,0 +1,53 @@
+[
+    {
+        "__comment": "Create",
+        "ingredientPattern": "CG,S_",
+        "ingredients": {
+            "C": {
+                "type": "item",
+                "code": "game:charcoal"
+            },
+            "G": {
+                "type": "item",
+                "code": "game:flint"
+            },
+            "S": {
+                "type": "item",
+                "code": "extremefirestarters:firestriker"
+            }
+        },
+        "width": 2,
+        "height": 2,
+        "output": {
+            "type": "item",
+            "code": "extremefirestarters:flintandsteel",
+            "quantity": 1
+        }
+    },
+    {
+        "__comment": "Repair",
+        "recipeGroup": 2,
+        "ingredientPattern": "CG,S_",
+        "ingredients": {
+            "C": {
+                "type": "item",
+                "code": "game:charcoal"
+            },
+            "G": {
+                "type": "item",
+                "code": "game:flint"
+            },
+            "S": {
+                "type": "item",
+                "code": "extremefirestarters:flintandsteel"
+            }
+        },
+        "width": 2,
+        "height": 2,
+        "averageDurability": false,
+        "output": {
+            "type": "item",
+            "code": "extremefirestarters:flintandsteel"
+        }
+    }
+]

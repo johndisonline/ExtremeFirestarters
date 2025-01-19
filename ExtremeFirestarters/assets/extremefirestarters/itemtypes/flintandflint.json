@@ -1,0 +1,134 @@
+{
+    "code": "flintandflint",
+    "class": "ItemExtremeFirestarter",
+    "shape": { "base": "item/resource/flintandflint" },
+    "heldTpHitAnimation": "breaktool",
+    "durability": 50,
+    "attributes": {
+        "igniteAnimation": "startfire",
+        "igniteSound": "game:sounds/block/loosestone1",
+
+        "groundStorageTransform": {
+            "origin": {
+                "x": 0.5,
+                "y": 0,
+                "z": 0.5
+            },
+            "scale": 0.81
+        },
+
+        "startSpeed": 4,
+        "startRate": 0.01,
+        "healthDamageAvg": 1.5,
+        "healthDamageVar": 1,
+        "healthDamageChance": 0.05,
+        "hungerDamageAvg": 15,
+        "hungerDamageVar": 5,
+        "returnItemOnBroken": "game:flint",
+        "returnItemOnBrokenChance": 0.5,
+
+        "rackable": true,
+        "toolrackTransform": {
+            "translation": {
+                "x": 0.4,
+                "y": 0.48,
+                "z": 0
+            },
+            "origin": {
+                "x": 0.5,
+                "y": 0,
+                "z": 0.5
+            }
+        },
+        "shelvable": true,
+        "onshelfTransform": {
+            "origin": {
+                "x": 0.5,
+                "y": 0,
+                "z": 0.5
+            },
+            "scale": 0.8
+        }
+    },
+    "behaviors": [
+        {
+            "name": "GroundStorable",
+            "properties": {
+                "layout": "Quadrants",
+                "ctrlKey": true
+            }
+        }
+    ],
+    "creativeinventory": {
+        "general": [ "*" ],
+        "items": [ "*" ],
+        "tools": [ "*" ]
+    },
+    "guiTransform": {
+        "translation": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "rotation": {
+            "x": 127,
+            "y": 67,
+            "z": 13
+        },
+        "origin": {
+            "x": 0.45,
+            "y": 0.05,
+            "z": 0.45
+        },
+        "scale": 2.54
+    },
+    "fpHandTransform": {
+        "translation": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "rotation": {
+            "x": 1,
+            "y": 0,
+            "z": 0
+        },
+        "scale": 1
+    },
+    "groundTransform": {
+        "translation": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "rotation": {
+            "x": 1,
+            "y": 0,
+            "z": 0
+        },
+        "origin": {
+            "x": 0.51,
+            "y": 0,
+            "z": 0.5
+        },
+        "scale": 3.6
+    },
+    "tpHandTransform": {
+        "translation": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "rotation": {
+            "x": 0,
+            "y": -20,
+            "z": -54
+        },
+        "origin": {
+            "x": -0.1,
+            "y": 0.2,
+            "z": 0.1
+        },
+        "scale": 0.52
+    }
+}

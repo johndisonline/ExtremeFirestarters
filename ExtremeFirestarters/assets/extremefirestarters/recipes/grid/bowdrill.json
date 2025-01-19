@@ -1,0 +1,67 @@
+[
+    {
+        "__comment": "Create",
+        "recipeGroup": 1,
+        "ingredientPattern": "_W_,BGS,_W_",
+        "ingredients": {
+            "W": {
+                "type": "item",
+                "code": "game:firewood"
+            },
+            "S": {
+                "type": "item",
+                "code": "game:stick"
+            },
+            "B": {
+                "type": "item",
+                "code": "game:bow-simple"
+            },
+            "G": {
+                "type": "item",
+                "code": "game:drygrass"
+            }
+        },
+        "width": 3,
+        "height": 3,
+        "output": {
+            "type": "item",
+            "code": "extremefirestarters:bowdrill"
+        }
+    },
+    {
+        "__comment": "Repair",
+        "recipeGroup": 2,
+        "ingredientPattern": "_WF,BGS,_W_",
+        "ingredients": {
+            "W": {
+                "type": "item",
+                "code": "game:firewood"
+            },
+            "F": {
+                "type": "item",
+                "code": "game:flaxtwine"
+            },
+            "S": {
+                "type": "item",
+                "code": "game:stick"
+            },
+            "B": {
+                "type": "item",
+                "code": "extremefirestarters:bowdrill"
+            },
+            "G": {
+                "type": "item",
+                "code": "game:drygrass"
+            }
+        },
+        "width": 3,
+        "height": 3,
+        "averageDurability":  false,
+        "output": {
+            "type": "item",
+            "code": "extremefirestarters:bowdrill"
+        }
+    }
+
+
+]

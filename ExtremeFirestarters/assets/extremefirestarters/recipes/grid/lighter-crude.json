@@ -1,0 +1,78 @@
+[
+    {
+        "__comment":  "Create",
+        "ingredientPattern": "R_F,_V_,_B_",
+        "ingredients": {
+            "R": {
+                "type": "item",
+                "code": "game:rope"
+            },
+            "F": {
+                "type": "item",
+                "code": "game:flint"
+            },
+            "V": {
+                "type": "block",
+                "code": "game:bowl-fired"
+            },
+            "B": {
+                "type": "item",
+                "code": "extremefirestarters:lighter-body-crude"
+            }
+        },
+        "attributes": {
+            "liquidContainerProps": {
+                "requiresContent": {
+                    "type": "item",
+                    "code": "alcoholportion"
+                },
+                "requiresLitres": 0.25
+            }
+        },
+        "width": 3,
+        "height": 3,
+        "output": {
+            "type": "item",
+            "code": "extremefirestarters:lighter-crude"
+        }
+    },
+    {
+        "__comment": "Repair",
+        "recipeGroup": 2,
+        "ingredientPattern": "R_F,_V_,_B_",
+        "ingredients": {
+            "R": {
+                "type": "item",
+                "code": "game:rope"
+            },
+            "F": {
+                "type": "item",
+                "code": "game:flint"
+            },
+            "V": {
+                "type": "block",
+                "code": "game:bowl-fired"
+            },
+            "B": {
+                "type": "item",
+                "code": "extremefirestarters:lighter-crude"
+            }
+        },
+        "attributes": {
+            "liquidContainerProps": {
+                "requiresContent": {
+                    "type": "item",
+                    "code": "alcoholportion"
+                },
+                "requiresLitres": 0.25
+            }
+        },
+        "width": 3,
+        "height": 3,
+        "averageDurability": false,
+        "output": {
+            "type": "item",
+            "code": "extremefirestarters:lighter-crude"
+        }
+    }
+]

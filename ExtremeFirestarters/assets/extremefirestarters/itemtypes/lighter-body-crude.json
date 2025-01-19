@@ -1,0 +1,84 @@
+{
+	"code": "lighter-body-crude",
+	"attributes": {
+		"displaycaseable": true,
+		"shelvable": true,
+		"handbook": {
+			"extraSections": [
+				{
+					"title": "item-handbooktitle-lighter-body-crude",
+					"text": "item-handbooktext-lighter-body-crude"
+				}
+			]
+		}
+	},
+	"shape": { "base": "item/resource/lighter-body-crude" },
+	"creativeinventory": {
+		"general": [ "*" ],
+		"items": [ "*" ]
+	},
+	"maxstacksize": 64,
+	"materialDensity": 2000,
+	"guiTransform": {
+		"translation": {
+			"x": 0,
+			"y": 0,
+			"z": 0
+		},
+		"rotation": {
+			"x": 159,
+			"y": -46,
+			"z": 5
+		},
+		"origin": {
+			"x": 0.5,
+			"y": 0.2,
+			"z": 0.48
+		},
+		"scale": 3.31
+	},
+	"fpHandTransform": {
+		"rotation": {
+			"x": 101,
+			"y": 92,
+			"z": -30
+		},
+		"origin": {
+			"x": 0.6,
+			"y": 0.2,
+			"z": 0.4
+		},
+		"scale": 1.6
+	},
+	"tpHandTransform": {
+		"translation": {
+			"x": -1.2,
+			"y": -0.7,
+			"z": -1.05
+		},
+		"rotation": {
+			"x": -9,
+			"y": 3,
+			"z": -29
+		},
+		"scale": 0.44
+	},
+	"groundTransform": {
+		"translation": {
+			"x": 0,
+			"y": 0,
+			"z": 0
+		},
+		"rotation": {
+			"x": -90,
+			"y": 3,
+			"z": 1
+		},
+		"origin": {
+			"x": 0.5,
+			"y": 0,
+			"z": 0.4
+		},
+		"scale": 3.6
+	}
+}

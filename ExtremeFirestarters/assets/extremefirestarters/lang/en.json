@@ -1,0 +1,26 @@
+{
+    "item-flintandflint": "Flint & Flint Firestarter",
+    "itemdesc-flintandflint": "Two pieces of flint you can smash together to hopefully start a fire.",
+
+    "item-bowdrill-crude": "Crude Bow Drill Firestarter",
+    "itemdesc-bowdrill-crude": "A crude bow that hopefully spins a stick, used to heat up wood to the point of maybe catching fire.",
+
+    "item-bowdrill": "Bow Drill Firestarter",
+    "itemdesc-bowdrill": "A bow that spins a stick, used to heat up wood to the point of catching fire.",
+
+    "item-firestriker": "Steel Striker",
+    "itemdesc-firestriker": "A handheld steel bar you could smash against something to make some sparks.",
+
+    "item-flintandsteel": "Flint & Steel Firestarter",
+    "itemdesc-flintandsteel": "A piece of flint and steel you smash together to start a fire.",
+
+    "item-matches": "Matches",
+    "itemdesc-matches": "Explosive-mixture-on-a-stick used for starting fires, covered in wax for safety and longetivity.",
+
+    "item-lighter-body-crude": "Crude Lighter Body",
+    "itemdesc-lighter-body-crude": "A crudely formed metal container with a lid.",
+
+    "item-lighter-crude": "Crude Lighter",
+    "itemdesc-lighter-crude": "Flammable liquid tucked up with some rope and flint for easy fire starting."
+
+}

@@ -1,0 +1,37 @@
+{
+    "ingredientPattern": "_W_,BGK,_S_",
+    "ingredients": {
+        "W": {
+            "type": "item",
+            "code": "game:beeswax",
+            "quantity": 2
+        },
+        "B": {
+            "type": "item",
+            "code": "game:blastingpowder",
+            "quantity": 2
+        },
+        "G": {
+            "type": "item",
+            "code": "game:glueportion-pitch-hot",
+            "quantity": 2
+        },
+        "K": {
+            "type": "item",
+            "code": "game:knife-*",
+            "isTool": true
+        },
+        "S": {
+            "type": "item",
+            "code": "game:stick",
+            "quantity": 10
+        }
+    },
+    "width": 3,
+    "height": 3,
+    "output": {
+        "type": "item",
+        "code": "extremefirestarters:matches",
+        "quantity": 1
+    }
+}

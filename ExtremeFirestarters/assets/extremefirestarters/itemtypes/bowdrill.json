@@ -1,0 +1,138 @@
+{
+    "code": "bowdrill",
+    "class": "ItemExtremeFirestarter",
+    "shape": { "base": "item/resource/bowdrill" },
+    "heldTpHitAnimation": "breaktool",
+    "durability": 100,
+    "attributes": {
+        "igniteAnimation": "startfire",
+        "igniteSound": "game:sounds/player/handdrill",
+
+        "startSpeed": 0.75,
+        "startRate": 0.5,
+        "hungerDamageAvg": 15,
+        "hungerDamageVar": 5,
+
+        "returnItemOnBroken": "game:bow-simple",
+        "returnItemOnBrokenChance": 0.8,
+
+        "groundStorageTransform": {
+            "translation": {
+                "x": -0.1,
+                "y": 0,
+                "z": 0
+            },
+            "rotation": {
+                "x": 0,
+                "y": -90,
+                "z": 0
+            },
+            "origin": {
+                "x": 0.5,
+                "y": 0,
+                "z": 0.5
+            },
+            "scale": 0.8
+        },
+        "rackable": true,
+        "toolrackTransform": {
+            "translation": {
+                "x": 0,
+                "y": 0.65,
+                "z": 0
+            },
+            "rotation": {
+                "x": 180,
+                "y": 180,
+                "z": 0
+            },
+            "origin": {
+                "x": 0.5,
+                "y": 0,
+                "z": 0
+            },
+            "scale": 1.2
+        }
+    },
+    "behaviors": [
+        {
+            "name": "GroundStorable",
+            "properties": {
+                "layout": "Halves",
+                "ctrlKey": true
+            }
+        }
+    ],
+    "creativeinventory": {
+        "general": [ "*" ],
+        "items": [ "*" ],
+        "tools": [ "*" ]
+    },
+    "guiTransform": {
+        "translation": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "rotation": {
+            "x": 112,
+            "y": -133,
+            "z": 4
+        },
+        "origin": {
+            "x": 0.5,
+            "y": 0.2,
+            "z": 0.5
+        },
+        "scale": 1.46
+    },
+    "fpHandTransform": {
+        "translation": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "rotation": {
+            "x": 1,
+            "y": 0,
+            "z": 0
+        },
+        "scale": 1
+    },
+    "groundTransform": {
+        "translation": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "rotation": {
+            "x": 1,
+            "y": 0,
+            "z": 0
+        },
+        "origin": {
+            "x": 0.51,
+            "y": 0,
+            "z": 0.5
+        },
+        "scale": 3.6
+    },
+    "tpHandTransform": {
+        "translation": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "rotation": {
+            "x": -20,
+            "y": -25,
+            "z": -22
+        },
+        "origin": {
+            "x": 0.1,
+            "y": 0,
+            "z": 0.18
+        },
+        "scale": 0.72
+    }
+}

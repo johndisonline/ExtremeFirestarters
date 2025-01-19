@@ -1,0 +1,135 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+	},
+	"textures": {
+		"flint": "game:block/stone/flint",
+		"gray": "game:item/meta/gray",
+		"blastingpowder": "game:item/resource/blastingpowder",
+		"tin": "game:item/resource/plate/tin",
+		"rope": "game:item/resource/rope"
+	},
+	"elements": [
+		{
+			"name": "Origin",
+			"from": [ 8.0, 0.0, 8.0 ],
+			"to": [ 8.0, 0.0, 8.0 ],
+			"rotationOrigin": [ 8.0, 0.0, 8.0 ],
+			"faces": {
+				"north": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+				"east": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+				"south": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+				"west": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+				"up": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+				"down": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ] }
+			},
+			"children": [
+				{
+					"name": "base",
+					"from": [ -1.5, 0.0, -1.0 ],
+					"to": [ 1.5, 4.0, 1.0 ],
+					"faces": {
+						"north": { "texture": "#tin", "uv": [ 0.0, 0.0, 3.0, 4.0 ] },
+						"east": { "texture": "#tin", "uv": [ 0.0, 0.0, 2.0, 4.0 ] },
+						"south": { "texture": "#tin", "uv": [ 0.0, 0.0, 3.0, 4.0 ] },
+						"west": { "texture": "#tin", "uv": [ 0.0, 0.0, 2.0, 4.0 ] },
+						"up": { "texture": "#gray", "uv": [ 0.0, 0.0, 3.0, 2.0 ] },
+						"down": { "texture": "#tin", "uv": [ 0.0, 0.0, 3.0, 2.0 ] }
+					}
+				},
+				{
+					"name": "lid",
+					"from": [ -1.5, 4.0, -1.0 ],
+					"to": [ 1.5, 6.0, 1.0 ],
+					"rotationOrigin": [ 1.5, 4.0, 0.0 ],
+					"rotationZ": -45.0,
+					"faces": {
+						"north": { "texture": "#tin", "uv": [ 0.0, 0.0, 3.0, 2.0 ] },
+						"east": { "texture": "#tin", "uv": [ 0.0, 0.0, 2.0, 2.0 ] },
+						"south": { "texture": "#tin", "uv": [ 0.0, 0.0, 3.0, 2.0 ] },
+						"west": { "texture": "#tin", "uv": [ 0.0, 0.0, 2.0, 2.0 ] },
+						"up": { "texture": "#tin", "uv": [ 0.0, 0.0, 3.0, 2.0 ] },
+						"down": { "texture": "#gray", "uv": [ 0.0, 0.0, 3.0, 2.0 ] }
+					}
+				},
+				{
+					"name": "hinge",
+					"from": [ 1.4, 3.8, -1.0 ],
+					"to": [ 1.8, 4.2, 1.0 ],
+					"rotationOrigin": [ 1.9, 3.8, 0.0 ],
+					"faces": {
+						"north": { "texture": "#tin", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+						"east": { "texture": "#tin", "uv": [ 0.0, 0.0, 2.0, 0.5 ] },
+						"south": { "texture": "#tin", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+						"west": { "texture": "#tin", "uv": [ 0.0, 0.0, 2.0, 0.5 ] },
+						"up": { "texture": "#tin", "uv": [ 0.0, 0.0, 0.5, 2.0 ] },
+						"down": { "texture": "#tin", "uv": [ 0.0, 0.0, 0.5, 2.0 ] }
+					}
+				},
+				{
+					"name": "string1",
+					"from": [ -1.0, 3.7, -0.2 ],
+					"to": [ -0.6, 4.7, 0.2 ],
+					"rotationOrigin": [ -1.0, 3.7, -0.2 ],
+					"rotationZ": 45.0,
+					"faces": {
+						"north": { "texture": "#rope", "uv": [ 0.0, 0.0, 0.5, 1.0 ] },
+						"east": { "texture": "#rope", "uv": [ 0.0, 0.0, 0.5, 1.0 ] },
+						"south": { "texture": "#rope", "uv": [ 0.0, 0.0, 0.5, 1.0 ] },
+						"west": { "texture": "#rope", "uv": [ 0.0, 0.0, 0.5, 1.0 ] },
+						"up": { "texture": "#rope", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+						"down": { "texture": "#rope", "uv": [ 0.0, 0.0, 0.5, 0.5 ] }
+					}
+				},
+				{
+					"name": "string2",
+					"from": [ -1.6, 4.3, -0.2 ],
+					"to": [ -1.2, 5.3, 0.2 ],
+					"rotationOrigin": [ -1.6, 4.3, -0.2 ],
+					"rotationZ": 67.5,
+					"faces": {
+						"north": { "texture": "#rope", "uv": [ 0.0, 0.0, 0.5, 1.0 ] },
+						"east": { "texture": "#rope", "uv": [ 0.0, 0.0, 0.5, 1.0 ] },
+						"south": { "texture": "#rope", "uv": [ 0.0, 0.0, 0.5, 1.0 ] },
+						"west": { "texture": "#rope", "uv": [ 0.0, 0.0, 0.5, 1.0 ] },
+						"up": { "texture": "#rope", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+						"down": { "texture": "#rope", "uv": [ 0.0, 0.0, 0.5, 0.5 ] }
+					}
+				},
+				{
+					"name": "burntend",
+					"from": [ -2.1, 4.4, -0.3 ],
+					"to": [ -1.5, 4.8, 0.3 ],
+					"rotationOrigin": [ -2.1, 4.4, -0.3 ],
+					"rotationZ": 67.5,
+					"faces": {
+						"north": { "texture": "#blastingpowder", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+						"east": { "texture": "#blastingpowder", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+						"south": { "texture": "#blastingpowder", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+						"west": { "texture": "#blastingpowder", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+						"up": { "texture": "#blastingpowder", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+						"down": { "texture": "#blastingpowder", "uv": [ 0.0, 0.0, 0.5, 0.5 ] }
+					}
+				},
+				{
+					"name": "flint",
+					"from": [ -0.4, 1.0, -0.7 ],
+					"to": [ -0.1, 5.0, 0.7 ],
+					"rotationOrigin": [ 1.1, 1.0, 0.3 ],
+					"faces": {
+						"north": { "texture": "#flint", "uv": [ 0.0, 0.0, 0.5, 4.0 ] },
+						"east": { "texture": "#flint", "uv": [ 0.0, 0.0, 1.0, 4.0 ] },
+						"south": { "texture": "#flint", "uv": [ 0.0, 0.0, 0.5, 4.0 ] },
+						"west": { "texture": "#flint", "uv": [ 0.0, 0.0, 1.0, 4.0 ] },
+						"up": { "texture": "#flint", "uv": [ 0.0, 0.0, 0.5, 1.0 ] },
+						"down": { "texture": "#flint", "uv": [ 0.0, 0.0, 0.5, 1.0 ] }
+					}
+				}
+			]
+		}
+	]}

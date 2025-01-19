@@ -1,0 +1,13 @@
+{
+    "type": "code",
+    "modid": "extremefirestarters",
+    "name": "ExtremeFirestarters",
+    "authors": [
+        "JohnD"
+    ],
+    "description": "Adds several tiers of firestarters, along with new firestarter behavior.",
+    "version": "0.3.0",
+    "dependencies": {
+        "game": ""
+    }
+}

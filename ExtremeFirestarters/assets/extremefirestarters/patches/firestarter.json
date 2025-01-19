@@ -1,0 +1,162 @@
+[
+    {
+        "__comment": "Recipe pattern to include a firewood base",
+        "file": "game:recipes/grid/firestarter.json",
+        "op": "replace",
+        "path": "/ingredientPattern",
+        "value": "S_,FG"
+    },
+    {
+        "__comment": "Recipe",
+        "file": "game:recipes/grid/firestarter.json",
+        "op": "replace",
+        "path": "/ingredients",
+        "value": {
+            "G": {
+                "type": "item",
+                "code": "game:drygrass"
+            },
+            "S": {
+                "type": "item",
+                "code": "game:stick"
+            },
+            "F": {
+                "type": "item",
+                "code": "game:firewood"
+            }
+        }
+    },
+    {
+        "__comment": "Storage Stuff - not require a wall.",
+        "file": "game:itemtypes/tool/firestarter.json",
+        "op": "replace",
+        "path": "/behaviors/0/properties/layout",
+        "value": "Halves"
+    },
+    {
+        "file": "game:itemtypes/tool/firestarter.json",
+        "op": "add",
+        "path": "/attributes/groundStorageTransform",
+        "value": {
+            "rotation": {
+                "x": 0,
+                "y": 135,
+                "z": 0
+            },
+            "origin": {
+                "x": 0.51,
+                "y": 0,
+                "z": 0.5
+            }
+        }
+    },
+
+    {
+        "__comment": "Storage Stuff - allow storage rack.",
+        "file": "game:itemtypes/tool/firestarter.json",
+        "op": "add",
+        "path": "/attributes/rackable",
+        "value": true
+    },
+    {
+        "file": "game:itemtypes/tool/firestarter.json",
+        "op": "add",
+        "path": "/attributes/toolrackTransform",
+        "value": {
+            "translation": {
+                "x": 0.1,
+                "y": 0.6,
+                "z": 0
+            },
+            "rotation": {
+                "x": 180,
+                "y": 46,
+                "z": 5
+            },
+            "origin": {
+                "x": 0.5,
+                "y": 0,
+                "z": 0.5
+            }
+        }
+    },
+    {
+        "__comment": "Replacing the base class.",
+        "file": "game:itemtypes/tool/firestarter.json",
+        "op": "replace",
+        "path": "/class",
+        "value": "ItemExtremeFirestarter"
+    },
+
+    {
+        "file": "game:itemtypes/tool/firestarter.json",
+        "op": "add",
+        "path": "/attributes/igniteSound",
+        "value": "game:sounds/player/handdrill"
+    },
+
+
+    {
+        "__comment": "Item Stats",
+        "file": "game:itemtypes/tool/firestarter.json",
+        "op": "replace",
+        "path": "/durability",
+        "value": 5
+    },
+    {
+        "file": "game:itemtypes/tool/firestarter.json",
+        "op": "add",
+        "path": "/attributes/startSpeed",
+        "value": 0.2
+    },
+    {
+        "file": "game:itemtypes/tool/firestarter.json",
+        "op": "add",
+        "path": "/attributes/startRate",
+        "value": 0.1
+    },
+
+    {
+        "file": "game:itemtypes/tool/firestarter.json",
+        "op": "add",
+        "path": "/attributes/healthDamageAvg",
+        "value": 1.5
+    },
+    {
+        "file": "game:itemtypes/tool/firestarter.json",
+        "op": "add",
+        "path": "/attributes/healthDamageVar",
+        "value": 1
+    },
+    {
+        "file": "game:itemtypes/tool/firestarter.json",
+        "op": "add",
+        "path": "/attributes/healthDamageChance",
+        "value": 0.2
+    },
+    {
+        "file": "game:itemtypes/tool/firestarter.json",
+        "op": "add",
+        "path": "/attributes/hungerDamageAvg",
+        "value": 75
+    },
+    {
+        "file": "game:itemtypes/tool/firestarter.json",
+        "op": "add",
+        "path": "/attributes/hungerDamageVar",
+        "value": 25
+    },
+    {
+        "file": "game:itemtypes/tool/firestarter.json",
+        "op": "add",
+        "path": "/attributes/returnItemOnBroken",
+        "value": "game:firewood"
+    },
+    {
+        "file": "game:itemtypes/tool/firestarter.json",
+        "op": "add",
+        "path": "/attributes/returnItemOnBrokenChance",
+        "value": 0.66
+    }
+
+]	

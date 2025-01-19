@@ -1,0 +1,124 @@
+{
+    "code": "lighter-crude",
+    "class": "ItemExtremeFirestarter",
+    "shape": { "base": "item/resource/lighter-crude" },
+    "heldTpHitAnimation": "breaktool",
+    "durability": 100,
+    "attributes": {
+        "igniteAnimation": "startfire",
+        "igniteSound": "game:sounds/torch-ignite",
+
+        "startSpeed": 2,
+        "startRate": 1,
+        "returnItemOnBroken": "extremefirestarters:lighter-body-crude",
+        "returnItemOnBrokenChance": 0.5,
+        "rackable": true,
+        "toolrackTransform": {
+            "translation": {
+                "x": 0.12,
+                "y": 0.55,
+                "z": 0
+            },
+            "rotation": {
+                "x": 90,
+                "y": 0,
+                "z": -90
+            },
+            "origin": {
+                "x": 0.5,
+                "y": 0,
+                "z": 0.5
+            }
+        },
+        "shelvable": true,
+        "onshelfTransform": {
+            "origin": {
+                "x": 0.5,
+                "y": 0,
+                "z": 0.5
+            },
+            "scale": 0.8
+        }
+    },
+    "behaviors": [
+        {
+            "name": "GroundStorable",
+            "properties": {
+                "layout": "Quadrants",
+                "ctrlKey": true
+            }
+        }
+    ],
+    "creativeinventory": {
+        "general": [ "*" ],
+        "items": [ "*" ],
+        "tools": [ "*" ]
+    },
+    "guiTransform": {
+        "translation": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "rotation": {
+            "x": 166,
+            "y": -23,
+            "z": 7
+        },
+        "origin": {
+            "x": 0.48,
+            "y": 0.25,
+            "z": 0.46
+        },
+        "scale": 3.22
+    },
+    "fpHandTransform": {
+        "translation": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "rotation": {
+            "x": 1,
+            "y": 0,
+            "z": 0
+        },
+        "scale": 1
+    },
+    "groundTransform": {
+        "translation": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "rotation": {
+            "x": -90,
+            "y": -2,
+            "z": 0
+        },
+        "origin": {
+            "x": 0.5,
+            "y": 0,
+            "z": 0.4
+        },
+        "scale": 3.6
+    },
+    "tpHandTransform": {
+        "translation": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "rotation": {
+            "x": 0,
+            "y": 0,
+            "z": -20
+        },
+        "origin": {
+            "x": 0.1,
+            "y": 0,
+            "z": 0.18
+        },
+        "scale": 0.35
+    }
+}

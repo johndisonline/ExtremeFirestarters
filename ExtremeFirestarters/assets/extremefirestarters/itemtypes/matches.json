@@ -1,0 +1,142 @@
+{
+    "code": "matches",
+    "class": "ItemExtremeFirestarter",
+    "shape": { "base": "item/resource/matches" },
+    "heldTpHitAnimation": "breaktool",
+    "durability": 50,
+    "attributes": {
+        "igniteAnimation": "startfire",
+        "igniteSound": "game:sounds/player/strike1",
+
+        "startSpeed": 100,
+        "startRate": 0.8,
+        "mergeDurability": true,
+
+        "groundStorageTransform": {
+            "rotation": {
+                "x": 0,
+                "y": 45,
+                "z": 0
+            },
+            "origin": {
+                "x": 0.5,
+                "y": 0,
+                "z": 0.5
+            },
+            "scale": 0.8
+        },
+        "rackable": true,
+        "toolrackTransform": {
+            "translation": {
+                "x": 0.2,
+                "y": 0.7,
+                "z": 0
+            },
+            "rotation": {
+                "x": 0,
+                "y": 180,
+                "z": 0
+            },
+            "scale": 1.25
+        },
+        "shelvable": true,
+        "onshelfTransform": {
+            "rotation": {
+                "x": 0,
+                "y": 45,
+                "z": 0
+            },
+            "origin": {
+                "x": 0.5,
+                "y": 0,
+                "z": 0.5
+            },
+            "scale": 0.8
+        }
+    },
+    "behaviors": [
+        {
+            "name": "GroundStorable",
+            "properties": {
+                "layout": "Quadrants",
+                "ctrlKey": true
+            }
+        }
+    ],
+    "creativeinventory": {
+        "general": [ "*" ],
+        "items": [ "*" ],
+        "tools": [ "*" ]
+    },
+    "guiTransform": {
+        "translation": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "rotation": {
+            "x": 118,
+            "y": 46,
+            "z": 4
+        },
+        "origin": {
+            "x": 0.5,
+            "y": 0,
+            "z": 0.5
+        },
+        "scale": 3.12
+    },
+    "fpHandTransform": {
+        "translation": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "rotation": {
+            "x": 1,
+            "y": 0,
+            "z": 0
+        },
+        "scale": 1
+    },
+    "groundTransform": {
+        "translation": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "rotation": {
+            "x": 1,
+            "y": 0,
+            "z": 0
+        },
+        "origin": {
+            "x": 0.51,
+            "y": 0,
+            "z": 0.5
+        },
+        "scale": 3.6
+    },
+    "tpHandTransform": {
+        "translation": {
+            "x": 0.8,
+            "y": 0.3,
+            "z": -0.4
+        },
+        "rotation": {
+            "x": -77,
+            "y": -2,
+            "z": -20
+        },
+        "origin": {
+            "x": 0.1,
+            "y": 0,
+            "z": 0.18
+        },
+        "scaleXyz": {
+            "x": -0.55,
+            "y": 0.55,
+            "z": 0.55
+        }
+    }
+}
