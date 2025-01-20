@@ -21,9 +21,9 @@
         "startRate": 0.01,
         "healthDamageAvg": 1.5,
         "healthDamageVar": 1,
-        "healthDamageChance": 0.05,
-        "hungerDamageAvg": 15,
-        "hungerDamageVar": 5,
+        "healthDamageChance": 0.02,
+        "hungerDamageAvg": 7.5,
+        "hungerDamageVar": 2.5,
         "returnItemOnBroken": "game:flint",
         "returnItemOnBrokenChance": 0.5,
 

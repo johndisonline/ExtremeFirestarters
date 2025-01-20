@@ -9,6 +9,19 @@ I don't think i ended up using any of their code, but as this was my first mod, 
 
 Version Log
 
+0.4.0
+- Rebalanced flint & flint - did twice the damage it should have.
+- Added Config file
+	- 4 modes - custom, hardcore, vanilla+, and "items only"
+	- Default setting is hardcore, with features as described.
+	- vanilla+ turns off health damage, speeds up firestarters, and increases their durability (But keeps hunger damage and durability tweaks)
+	- items only only adds the new items
+	- Custom mode allows you to toggle invidiual config settings
+- Added "pyromaniac" trait and added to hunter and malefactor.
+- Rewrote Firestarter class instead of extending.
+
+Known Bug: The ingition tooltip (above fires and other ignitable objecsts) no longer shows Firestarters.
+
 0.3.0
 - Fixed bug where hunger would go negative.
 - Added 'merge' ability to matches - dragging one on top the other will merge durability.

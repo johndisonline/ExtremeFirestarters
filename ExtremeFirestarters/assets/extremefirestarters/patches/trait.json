@@ -1,0 +1,35 @@
+[
+    {
+        "__comment": "Add a trait that makes starting fires faster.",
+        "file": "game:config/traits",
+        "op": "addMerge",
+        "path": "/-",
+        "value": {
+            "code": "pyromaniac",
+            "type": "positive",
+            "attributes": {
+                "firestartingSpeed": 1.0,
+                "firestartingSuccess": 1.0,
+                "firestartingDurability": 1.0
+            }
+        }
+    },
+    {
+        "__comment": "Add the trait to the hunter class.",
+        "file": "game:config/characterclasses",
+        "op": "addMerge",
+        "path": "/1/traits/-",
+        "value": "pyromaniac"
+    },
+    {
+        "__comment": "Add the trait to the malefactor class.",
+        "file": "game:config/characterclasses",
+        "op": "addMerge",
+        "path": "/2/traits/-",
+        "value": "pyromaniac"
+    }
+
+]
+
+
+    
