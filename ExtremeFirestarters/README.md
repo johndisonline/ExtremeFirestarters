@@ -1,12 +1,3 @@
-
-Small thanks to:
-flintandsteel by Minni6in - https://mods.vintagestory.at/show/mod/1792
-Better Flint and Steel - https://mods.vintagestory.at/flintandsteeladdon
-
-I don't think i ended up using any of their code, but as this was my first mod, i learned a bit from looking at theirs.
-
-
-
 Version Log
 
 0.4.0
@@ -41,3 +32,13 @@ Known Bug: The default firestarter sound still plays despite the other being pla
 
 0.1.0
 - alpha release
+
+Thanks to:
+Configure Everything by DanaCraluminum - https://mods.vintagestory.at/configureeverything 
+For figuring out how to do config files
+
+flintandsteel by Minni6in - https://mods.vintagestory.at/show/mod/1792|
+And
+Better Flint and Steel - https://mods.vintagestory.at/flintandsteeladdon
+
+I don't think i ended up using any of their code, but as this was my first mod, i learned a bit from looking at theirs.
